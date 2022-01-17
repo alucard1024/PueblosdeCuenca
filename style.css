@@ -1,0 +1,94 @@
+html,
+body,
+.contenedor,
+.escena {
+    height: 100%;
+    
+}
+
+.escena {
+    display: block;
+    background-color: blueviolet;
+    position: relative;
+    
+}
+p{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#presentacion {
+    display: block;
+    background-color: red;
+}
+.contenedor{
+    background-color: #333;
+}
+
+.contenido {
+    background-color: rgba(3,3,3,.6);
+    color: whitesmoke;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+
+}
+#presentacion{
+    animation: arribaAbajo 2s;
+    background-image: url("presentacion.jpg");
+    background-size: cover;
+    
+    
+}
+#alarcon{
+    animation: arribaAbajo 2s;
+    background-image: url("imagenes/alarcon.jpg");
+    background-size: cover;
+    
+}
+#belmonte{
+    animation: arribaAbajo 2s;
+    background-image: url("imagenes/belmonte.jpg");
+    background-size: cover;
+    
+}
+#sisante{
+    animation: arribaAbajo 2s;
+    background-image: url("imagenes/sisante.jpg");
+    background-size: cover;
+       
+}
+#sanClemnente{
+    animation: arribaAbajo 2s;
+    background-image: url("imagenes/sanClemente.jpg");
+    background-size: cover;
+    
+}
+#huete{
+    animation: arribaAbajo 2s;
+    background-image: url("imagenes/huete.jpg");
+    background-size: cover;
+    
+}
+#contraportada{
+    animation: arribabajo 2s;
+}
+
+
+#audio{
+    color: white;
+    position:  fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 3em;
+
+}
